@@ -1,6 +1,6 @@
 
-docker build -t app .
+sudo docker build -t app .
 
-docker images ls
+sudo docker images ls
 
-docker run -d -p 5000:5000 app
+sudo docker run -d -p 5000:5000 app
